@@ -16,7 +16,12 @@ header {
 }
 
 main {
-    padding: 2rem;
+    max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: auto; /* Prevents content overflow horizontally */
+  overflow-y: auto;
 }
 
 .artist-grid {

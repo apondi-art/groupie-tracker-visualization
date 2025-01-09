@@ -13,8 +13,6 @@
     </ul>
     <h3>Creation Date: {{.Artist.CreationDate}}</h3>
     <h3>First Album: {{.Artist.FirstAlbum}}</h3>
-</div>
-
 
 <div class="button-card">
     <button onclick="location.href='/location/?id={{.Artist.ID}}'">Locations</button>
@@ -23,4 +21,7 @@
     <button onclick="location.href='/'">Home</button>
     <button onclick="location.href='/artist/?id={{.Artist.ID}}'">Back to Artist</button>
 </div>
+</div>
+
+
 {{end}}
