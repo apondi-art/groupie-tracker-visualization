@@ -9,19 +9,20 @@ body {
 
 header {
     background-color: #333;
-    ;
     color: #fff;
     text-align: center;
     padding: 1rem;
+    width: 100%;
 }
 
 main {
     max-width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-  overflow-x: auto; /* Prevents content overflow horizontally */
-  overflow-y: auto;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: auto;
+    /* Prevents content overflow horizontally */
+    overflow-y: auto;
 }
 
 .artist-grid {
@@ -48,7 +49,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
@@ -113,59 +114,84 @@ tbody tr:nth-child(even) {
 }
 
 .button-card {
-    display: flex;                /* Use flexbox for layout */
-    justify-content: center;      /* Center the buttons horizontally */
-    align-items: center;          /* Center the buttons vertically (if needed) */
-    flex-wrap: wrap;              /* Allow buttons to wrap if needed */
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: center;
+    /* Center the buttons horizontally */
+    align-items: center;
+    /* Center the buttons vertically (if needed) */
+    flex-wrap: wrap;
+    /* Allow buttons to wrap if needed */
 }
 
 .button-card button {
-    margin: 5px;                 /* Space between buttons */
-    padding: 20px 40px;        /* Increase button padding for a larger size */
-    background-color: #333;      /* Button background color */
-    color: white;                /* Text color */
-    border: none;                /* Removes default border */
-    border-radius: 5px;         /* Rounds button corners */
-    cursor: pointer;             /* Pointer cursor on hover */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
-    text-decoration: none;       /* Removes underline from links */
+    margin: 5px;
+    /* Space between buttons */
+    padding: 20px 40px;
+    /* Increase button padding for a larger size */
+    background-color: #333;
+    /* Button background color */
+    color: white;
+    /* Text color */
+    border: none;
+    /* Removes default border */
+    border-radius: 5px;
+    /* Rounds button corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition for background and text color */
+    text-decoration: none;
+    /* Removes underline from links */
 }
 
 /* Style for button links */
 .button-card button a {
-    color: white;                /* Ensures link color is white */
-    text-decoration: none;       /* Removes underline */
+    color: white;
+    /* Ensures link color is white */
+    text-decoration: none;
+    /* Removes underline */
 }
 
 /* Hover effect for buttons */
 .button-card button:hover {
-    background-color: burlywood; /* Change background color on hover */
-    color: black;                /* Change text color on hover */
+    background-color: burlywood;
+    /* Change background color on hover */
+    color: black;
+    /* Change text color on hover */
 }
 
-.error-test{
+.error-test {
 
     text-align: center;
     justify-content: center;
     border-radius: 10px;
-    color:black;
-    font-size: 50px; /* Increases text size */
+    color: black;
+    font-size: 50px;
+    /* Increases text size */
     font-weight: bold;
 
-    
+
 
 
 }
+
 .home-error {
-    display: flex;            /* Use flexbox for the button itself */
-    justify-content: center;   /* Center the text horizontally */
-    align-items: center;       /* Center the text vertically */
+    display: flex;
+    /* Use flexbox for the button itself */
+    justify-content: center;
+    /* Center the text horizontally */
+    align-items: center;
+    /* Center the text vertically */
     padding: 2rem;
     width: 150px;
     height: 50px;
     background-color: #333;
     color: white;
-    text-align: center;        /* Align text to the center */
-    border-radius: 10px;       /* Optional: Gives button a rounded shape */
-    box-sizing: border-box;    /* Ensure padding and width are uniform */
+    text-align: center;
+    /* Align text to the center */
+    border-radius: 10px;
+    /* Optional: Gives button a rounded shape */
+    box-sizing: border-box;
+    /* Ensure padding and width are uniform */
 }
